@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
-    "build:ui": "rm -rf dist && cd ../full-stack-open-react/part2-exercises/2-front-end && npm run build && cp -r dist ../render-exercises",
+    "build:ui": "rm -rf dist && cd ../full-stack-open-react/part2-exercises/2-front-end && npm run build && cp -r dist ../../render-exercises",
     "deploy:full": "npm run build:ui && git add . && git commit -m uibuild && git push",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
